@@ -20,7 +20,7 @@ body {
   align-items: center;
   min-height: 100vh;
 
-  padding: 50px 35px;
+  padding: 75px 35px;
 }
 
 .header {
@@ -38,6 +38,10 @@ body {
 .header p {
   font-weight: 400;
   margin: 20px 0;
+}
+
+.review-section {
+  margin: 40px 0;
 }
 
 .stars-review {
