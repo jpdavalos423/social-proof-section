@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "League Spartan";
+  src: url(./fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: "League Spartan";
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
