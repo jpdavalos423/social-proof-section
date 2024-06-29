@@ -13,10 +13,10 @@
 
 body {
   color: hsl(303, 10%, 53%);
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   min-height: 100vh;
 }
 
@@ -29,17 +29,22 @@ main h1 {
 .stars-review {
   background-color: hsl(300, 24%, 96%);
   color: hsl(300, 43%, 22%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .stars-review p {
   font-weight: 700;
 }
 
-.customer-review {
+.buyer-review {
   background-color: hsl(300, 43%, 22%);
   color: white;
 }
 
-.customer-review h3 {
+.buyer-review h3 {
   color: hsl(333, 80%, 67%);
 }
