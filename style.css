@@ -7,6 +7,7 @@
   font-family: "League Spartan";
   font-size: 15px;
   font-weight: 500;
+  line-height: 1.25;
   margin: 0;
   padding: 0;
 }
@@ -20,10 +21,14 @@ body {
   min-height: 100vh;
 }
 
-main h1 {
+.header h1 {
   color: hsl(300, 43%, 22%);
   font-size: 32px;
   font-weight: 700;
+}
+
+.header p {
+  font-weight: 400;
 }
 
 .stars-review {
@@ -32,8 +37,12 @@ main h1 {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+
+  height: 45px;
+  padding: 10px;
+  margin: 15px 0;
 }
 
 .stars-review p {
@@ -43,8 +52,29 @@ main h1 {
 .buyer-review {
   background-color: hsl(300, 43%, 22%);
   color: white;
+
+  border-radius: 5px;
+  padding: 25px;
+  margin: 15px 0;
 }
 
 .buyer-review h3 {
   color: hsl(333, 80%, 67%);
+  font-weight: 400;
+}
+
+.buyer-description {
+  display: flex;
+  align-items: center;
+
+  margin: 10px;
+}
+
+.buyer-description img {
+  border-radius: 360px;
+  width: 35px;
+}
+
+.buyer-id {
+  margin-left: 20px;
 }
