@@ -23,11 +23,11 @@ body {
   padding: 75px 35px;
 }
 
-.header {
+.intro {
   text-align: center;
 }
 
-.header h1 {
+.intro h1 {
   color: hsl(300, 43%, 22%);
   font-size: 40px;
   font-weight: 700;
@@ -35,7 +35,7 @@ body {
   margin: 0 20px;
 }
 
-.header p {
+.intro p {
   font-weight: 400;
   margin: 20px 0;
 }
@@ -95,4 +95,21 @@ body {
 
 .buyer-id {
   margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .intro {
+    width: 400px;
+  }
+
+  .header .review-section {
+    width: 600px;
+  }
 }
