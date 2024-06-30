@@ -97,9 +97,10 @@ body {
   margin-left: 20px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1036px) {
   body {
     padding: 100px 0 0 0;
+    min-height: 85vh;
   }
 
   .header {
@@ -122,15 +123,12 @@ body {
   }
 
   .header {
-    /* background-color: orange; */
     height: 300px;
   }
   .header .review-section {
     display: flex;
     flex-direction: column;
     width: 50%;
-
-    /* background-color: seagreen; */
   }
 
   .stars-review {
@@ -149,17 +147,14 @@ body {
 
   .stars-review:nth-of-type(2) {
     display: flex;
-    /* background-color: red; */
     align-self: center;
   }
 
   .stars-review:nth-of-type(3) {
-    /* background-color: pink; */
     align-self: flex-end;
   }
 
   .review-section:not(.header .review-section) {
-    /* background-color: red; */
     display: flex;
     height: 275px;
     margin: 0;
